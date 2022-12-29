@@ -47,11 +47,20 @@ body {
     border: 1px solid #4C4F54;
 }
 
+#lang_main {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
 #text_lang {
     color: #bdc1c6;
+    background-color: red;
 }
 
 .link_lang {
     color: #8ab4f8;
-
+    text-decoration: none;
+    margin: 0 4px;
+    background-color: red;
 }
