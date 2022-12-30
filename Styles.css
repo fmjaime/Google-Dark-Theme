@@ -68,11 +68,53 @@ body {
     margin: 0 3px;
 }
 
-#footer {
+.link_lang:hover {
+    text-decoration: underline;
+}
+
+#footer_a {
     color: #9aa0a6;
     background: #171717;
     font-size: 15px;
     margin-top: 110px;
     padding: 15px 30px;
     border-bottom: 1px solid #3c4043;
+}
+
+#footer_b {
+    text-align: center;
+    background: #171717;
+    padding: 15px;
+}
+
+#img_leaf {
+    height: 14px;
+    margin-right: 6px;
+}
+
+#carbon_emision {
+    color: #999da2;
+    text-decoration: none;
+}
+
+#carbon_emision:hover {
+    text-decoration: underline;
+}
+
+#footer_c {
+    background: #171717;
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px;
+}
+
+.link_footer {
+    color: #999da2;
+    text-decoration: none;
+    padding:15px;
+
+}
+
+.link_footer:hover{
+    text-decoration: underline;
 }
