@@ -45,6 +45,7 @@ body {
 #logo_main {
     display: block;
     margin: 0 auto;
+
 }
 
 #input_main {
@@ -103,10 +104,13 @@ body {
     text-decoration: underline;
 }
 
-#footer_a {
-    display: block;
-    color: #9aa0a6;
+#footer {
     background: #171717;
+    display: block;
+}
+
+#footer_a {
+    color: #9aa0a6;
     font-size: 15px;
     margin-top: 110px;
     padding: 15px 30px;
@@ -114,7 +118,6 @@ body {
 }
 
 #footer_b {
-    background: #171717;
     display: flex;
     justify-content: space-between;
     padding:20px;
@@ -137,7 +140,7 @@ body {
 .link_footer {
     color: #999da2;
     text-decoration: none;
-    padding:15px;
+    padding:0 15px;
 }
 
 .link_footer:hover{
