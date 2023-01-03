@@ -30,10 +30,12 @@ body {
 }
 
 .link_header_b {
-    color: #bdc1c6;
+    color: white;
+    font: 13px/27px Roboto,Arial,sans-serif;
     text-decoration: none;
     display: inline-block;
-    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 .link_header_b:hover {
@@ -43,7 +45,7 @@ body {
 
 #main {
     text-align: center;
-    margin: 240px 10px 0;
+    margin: 220px 10px 0;
 }
 
 #logo_main {
@@ -111,14 +113,17 @@ body {
 #footer {
     background: #171717;
     display: block;
+    margin-top: 305px;
 }
 
 #footer_a {
     color: #9aa0a6;
     font-size: 15px;
+    display: block;
     margin-top: 110px;
     padding: 15px 30px;
     border-bottom: 1px solid #3c4043;
+
 }
 
 #footer_b {
@@ -127,14 +132,15 @@ body {
     padding:20px;
 }
 
-#img_leaf {
-    height: 14px;
-    margin-right: 6px;
-}
-
 #carbon_emision {
     color: #999da2;
     text-decoration: none;
+    display: block;
+}
+
+#img_leaf {
+    height: 14px;
+    margin-right: 6px;
 }
 
 #carbon_emision:hover {
@@ -145,6 +151,7 @@ body {
     color: #999da2;
     text-decoration: none;
     padding:0 15px;
+    display: inline-block;
 }
 
 .link_footer:hover{
