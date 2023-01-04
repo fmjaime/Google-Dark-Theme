@@ -35,13 +35,11 @@ body {
     text-decoration: none;
     display: inline-block;
     padding-right: 15px;
-
 }
 
 .link_header_b:hover {
     text-decoration: underline;
 }
-
 
 #main {
     text-align: center;
@@ -51,7 +49,6 @@ body {
 #logo_main {
     display: block;
     margin: 0 auto;
-
 }
 
 #input_main {
@@ -110,20 +107,24 @@ body {
     text-decoration: underline;
 }
 
+#mastfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 410px;
+}
+
 #footer {
     background: #171717;
     display: block;
-    margin-top: 305px;
+    color: #9aa0a6;
 }
 
 #footer_a {
-    color: #9aa0a6;
     font-size: 15px;
     display: block;
-    margin-top: 110px;
     padding: 15px 30px;
     border-bottom: 1px solid #3c4043;
-
 }
 
 #footer_b {
